@@ -25,3 +25,8 @@ if (azeez[interestedIn]) {
 } else {
      console.log('Enter a valid input')
 }
+
+azeez.location = 'Nigeria'
+azeez['twitter'] = '@yalecttech'
+
+console.log(azeez)
