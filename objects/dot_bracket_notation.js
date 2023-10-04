@@ -20,10 +20,8 @@ console.log(azeez['first' + nameKey], azeez['last' + nameKey])
 const interestedIn = prompt('What do you want to know about Azeez: Choose between \
 firstName, lastNmae, age, job, wifeName, and friends')
 
-console.log(azeez[interestedIn])
-
-if (azeez['interestedIn'] === true) {
-    console.log(azeez['interestedIn'])
+if (azeez[interestedIn]) {
+    console.log(azeez[interestedIn])
+} else {
+     console.log('Enter a valid input')
 }
-// } else {
-//     console.log('Enter a valid input')
