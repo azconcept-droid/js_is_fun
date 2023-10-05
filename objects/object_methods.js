@@ -7,7 +7,7 @@ const azeez = {
     job: 'programmer',
     wife: 'Ajoke',
     friends: ['Mr. Kazeem', 'Olalere', 'Jamiu',],
-    hasDriversLicense: true,
+    hasDriversLicense: false,
     // calcAge: function () {
     //     console.log(this)
     //     return 2037 - this.birthyear
@@ -17,12 +17,12 @@ const azeez = {
         return this.age
     },
     getSummary: function () {
-        let aNo = (this.hasDriversLicense) ? a : no
-        let summary = `${this.firstname} is a ${this.age}-year old ${job}, and he has ${aNo} drivers's license`
+        let aNo = this.hasDriversLicense ? 'a' : 'no'
+        let summary = `${this.firstname} is a ${this.calcAge()}-year old ${this.job}, and he has ${aNo} drivers's license.`
         return summary
     }
 }
 
-console.log(azeez.calcAge())
+// console.log(azeez.calcAge())
 console.log(azeez.getSummary())
 
