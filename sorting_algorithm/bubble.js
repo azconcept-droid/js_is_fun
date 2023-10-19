@@ -6,13 +6,17 @@ function swap(a, b) {
     a = b
     b = temp
 }
-while (i < array.length) {
-    for(j = 0; j < array.length; j++) {
-        if (array[j] > array[j+1]) {
-            swap(array[j], array[j+1])
+
+function sort(i, arrayLength, j) {
+    while (i < arrayLength) {
+        for(j = 0; j < arrayLength; j++) {
+            if (array[j] > array[j+1]) {
+                swap(array[j], array[j+1])
+            }
         }
+        i++
     }
-    i++
 }
+sort(i, array.length, j)
 
 console.log(array)
