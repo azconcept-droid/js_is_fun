@@ -14,10 +14,10 @@ function sort(array) {
         for(j = 0; j < array.length; j++) {
             if (array[j] > array[j+1]) {
                 // swap(array[j], array[j+1])
-                console.log(array)
                 let temp = array[j]
                 array[j] = array[j+1]
                 array[j+1] = temp
+                console.log(array)
             }
         }
         i++
