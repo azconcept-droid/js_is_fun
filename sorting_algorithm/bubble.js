@@ -16,7 +16,7 @@ function sort(i, arrayLength, j) {
         }
         i++
     }
-}
-sort(i, array.length, j)
 
-console.log(array)
+    return array
+}
+console.log(sort(i, array.length, j))
