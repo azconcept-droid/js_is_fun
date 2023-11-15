@@ -7,4 +7,7 @@ const argv = process.argv
 
 let argvInt = parseInt(argv[2])
 
-console.log(`My number: ${argvInt[2]}`)
+if (argvInt)
+	console.log(`My number: ${argvInt}`)
+else
+	console.log(`Not a number`)
