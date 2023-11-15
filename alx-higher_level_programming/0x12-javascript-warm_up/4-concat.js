@@ -5,6 +5,6 @@
  * in the following format: “ is ”
  */
 
-const inputArgs = process.argv
+const inputArgs = process.argv;
 
-console.log(`${inputArgs[2]} is ${inputArgs[3]}`)
+console.log(`${inputArgs[2]} is ${inputArgs[3]}`);

@@ -4,14 +4,10 @@
  * if no arguments print “No argument”
  */
 
-const argsArray = process.argv
+const argsArray = process.argv;
 
-let count = 0
+let count = 0;
 
-while (argsArray[count])
-	count++
+while (argsArray[count]) { count++; }
 
-if (count === 2)
-	console.log("No argument")
-else
-	console.log(argsArray[2])
+if (count === 2) { console.log('No argument'); } else { console.log(argsArray[2]); }
