@@ -7,7 +7,7 @@ const inputArgs = process.argv
 
 const squareSize = parseInt(inputArgs[2])
 
-//console.log(squareSize)
+
 
 if (squareSize) {
 	for (let row = 0; row < squareSize; row++) {
